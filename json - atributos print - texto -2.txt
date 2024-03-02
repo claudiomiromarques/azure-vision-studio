@@ -1,0 +1,15 @@
+mode server
+tls-server
+ifconfig 10.182.0.11 255.255.254.0 # IP virtual do servidor como 10.182.0.11 com uma máscara de sub-rede 255.255.254.0
+ifconfig-pool 10.8.1.12 10.8.1.253 # conjunto de endereços IP variando de 10.182.0.12 a 10.182.0.253 com a mesma máscara de sub-rede 255.255.254.0
+
+
+Comandos liberar serviço no iptables cloud-shell
+
+sudo firewall-cmd --add-service=http --permanent
+
+sudo firewall-cmd --reload
+
+Testar porta
+
+sudo ss -nlpt | grep 80
