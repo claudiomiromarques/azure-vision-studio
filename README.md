@@ -14,4 +14,4 @@ Configurar o recurso de Serviços Cognitivos: Após a criação do recurso, vá 
 -  Análise de imagem.
 - E muito mais.
 
-Documentação oficial do Azure para obter informações detalhadas sobre como usar as APIs do Azure Vision e para entender melhor os recursos disponíveis: https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/03-image-analysis.html
+Documentação oficial do Azure para obter informações detalhadas sobre como usar o Azure Vision e para entender melhor os recursos disponíveis: https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/03-image-analysis.html
